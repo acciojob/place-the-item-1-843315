@@ -1,2 +1,107 @@
 
 /* Your CSS Code here. */
+#container
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px;
+	font-size: 40px;
+}
+
+.box1
+{
+	width: 100px;
+	height: 100px;
+	order: 3;
+	background-color: blueviolet;
+}
+
+.box2
+{
+	width: 100px;
+	height: 100px;
+	order: 1;
+	background-color: red;
+}
+
+.box3
+{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+}
+
+#holder
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+	font-size: 30px;
+}
+
+.box4
+{
+	height: 100px;
+	width: 100px;
+	order: 3;
+	background-color: red;
+	margin: 5px;
+}
+
+
+.box5
+{
+	height: 100px;
+	width: 100px;
+	order: 3;
+	background-color: blue;
+	margin: 5px;
+}
+
+.box6
+{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	margin: 5px;
+}
+
+.box7
+{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	margin: 5px;
+}
+
+.box8
+{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	margin: 5px;
+}
+
+.box9
+{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	margin: 5px;
+}
+
+.box10
+{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	margin: 5px;
+}
+
+
+
+
+
+
+
