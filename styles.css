@@ -1,38 +1,55 @@
-body {
-    background: #ddd;
-    font-family: serif;
+/* General Container */
+.container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
 }
 
-/* Shared box styling */
+/* Boxes */
 .box {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 48px;
-    color: black;
     padding: 10px;
-    margin: 5px;
+    box-sizing: border-box;
+    color: black;
 }
 
 /* Colors */
-.green { background: green; }
-.red   { background: red; }
-.blue  { background: blue; }
-
-/* Top container */
-.top-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+.green {
+    background-color: green;
 }
 
-/* Flex-wrap container */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* Order Classes */
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+/* Wrap Example */
 .wrap-container {
     display: flex;
     flex-wrap: wrap;
-    width: 800px; /* control wrapping */
+    width: 650px;   /* Adjust to see wrapping */
+    gap: 5px;
 }
 
 
