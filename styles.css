@@ -3,6 +3,8 @@
     display: flex;
     gap: 120px;
     margin-bottom: 40px;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 /* Boxes */
